@@ -1,3 +1,4 @@
+###SCHEMA
 
 CREATE DATABASE burger_db;
 
@@ -9,8 +10,3 @@ burger_name VARCHAR(255) NOT NULL,
 devoured BOOLEAN default false,
 PRIMARY KEY (id)
 );
-
-INSERT INTO burgers (burger_name, devoured)
-VALUES ("bacon and cheese", false);
-
-SELECT * FROM burgers
